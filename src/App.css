@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  text-align: center;
+  height: 100vh;
+  background-color: #3adcfc;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 40%;
+  left: 30%;
+  height: 30%;
+  border-radius: 30px;
+  top: 15%;
+}
+
+.user_input{
+  position: relative;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  left: 30%;
+  height: 15%;
+  border-radius: 30px;
+  top: 10%;
+}
+
+h1{
+  color: darkblue;
+}
+
+.submit{
+  border: 2px solid purple;
+  padding: 5px 20px;
+}
+
+p{
+  position: relative;
+  left: -20%;
+  font-size: large;
+}
+
+input{
+  padding: 5px 20px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+button{
+  padding: 10px 20px;
+  outline: none;
+  margin: 10px;
+  border-width: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.start{
+  border: 2px solid #4CAF50;
+}
+.stop{
+  border:2px solid #f44336;
+}
+.continue{
+  border:2px solid #008CBA;
+}
+.reset{
+  border: 2px solid  #555555;
+}
+
+
+button:focus{
+  transform: scale(0.9);
+}
